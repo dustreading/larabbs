@@ -8,7 +8,7 @@
 
   <div class="col-lg-3 col-md-3 hidden-sm hidden-xs user-info">
     <div class="card">
-      <img class="card-img-top" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3916481728,2850933383&fm=26&gp=0.jpg">
+      <img class="card-img-top" src="{{ $user->avatar }}" alt="{{ $user->name }}">
       <div class="card-body">
         <h5><strong>个人简介</strong></h5>
         <p>{{ $user->introduction }}</p>
