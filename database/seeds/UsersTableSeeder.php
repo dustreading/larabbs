@@ -17,16 +17,16 @@ class UsersTableSeeder extends Seeder
 
         // 头像假数据
         $avatars = [
-            'http://img2.imgtn.bdimg.com/it/u=2240829538,1689099562&fm=26&gp=0.jpg',
-            'http://img3.imgtn.bdimg.com/it/u=399974178,4035113539&fm=11&gp=0.jpg',
-            'http://img1.imgtn.bdimg.com/it/u=3251029328,2490819195&fm=26&gp=0.jpg',
-            'http://img2.imgtn.bdimg.com/it/u=3340466117,2726682841&fm=26&gp=0.jpg',
-            'http://img2.imgtn.bdimg.com/it/u=2289198615,2271927219&fm=26&gp=0.jpg',
-            'http://img0.imgtn.bdimg.com/it/u=3293099503,606929711&fm=26&gp=0.jpg',
-            'http://img0.imgtn.bdimg.com/it/u=1499786340,3160605610&fm=26&gp=0.jpg',
-            'http://img0.imgtn.bdimg.com/it/u=363561487,3458647895&fm=26&gp=0.jpg',
-            'http://img0.imgtn.bdimg.com/it/u=2862042311,2684682653&fm=26&gp=0.jpg',
-            'http://img1.imgtn.bdimg.com/it/u=314677669,3594175002&fm=26&gp=0.jpg',
+            'http://tva1.sinaimg.cn/large/007X8olVly1g8cpinjnh0j306j06xq5r.jpg',
+            'http://tva1.sinaimg.cn/large/007X8olVly1g8cpinrczvj306v06s76q.jpg',
+            'http://tva1.sinaimg.cn/large/007X8olVly1g8cpinxwgqj3079065jt7.jpg',
+            'http://tva1.sinaimg.cn/large/007X8olVly1g8cpio6gsdj307206y40x.jpg',
+            'http://tva1.sinaimg.cn/large/007X8olVly1g8cpiob02wj307e06sjtd.jpg',
+            'http://tva1.sinaimg.cn/large/007X8olVly1g8cpiog2wyj307l07ljtr.jpg',
+            'http://tva1.sinaimg.cn/large/007X8olVly1g8cpiolmqoj306i05utam.jpg',
+            'http://tva1.sinaimg.cn/large/007X8olVly1g8cpiopsyzj306b05tmyv.jpg',
+            'http://tva1.sinaimg.cn/large/007X8olVly1g8cpiovmonj307706zzmv.jpg',
+            'http://tva1.sinaimg.cn/large/007X8olVly1g8cpip1qgfj307b06ymzo.jpg',
         ];
 
         // 生成数据集合
@@ -49,7 +49,7 @@ class UsersTableSeeder extends Seeder
         $user = User::find(1);
         $user->name = 'Summer';
         $user->email = 'summer@example.com';
-        $user->avatar = 'http://img5.imgtn.bdimg.com/it/u=3140397485,1984669600&fm=26&gp=0.jpg';
+        $user->avatar = 'http://tva1.sinaimg.cn/large/007X8olVly1g8cpip885pj307d079jtf.jpg';
         $user->save();
     }
 }
